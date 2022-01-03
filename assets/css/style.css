@@ -8,6 +8,10 @@
     --secondary-color: #000dbb;
 }
 
+section {
+    padding: 60px;
+}
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -38,7 +42,7 @@ header nav ul li {
 }
 
 .hero {
-    background-image: url(../images/stripes.webp);
+    background-image: url("../images/stripes.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -47,15 +51,23 @@ header nav ul li {
     align-items: flex-start;
 }
 
+.hero-text {
+    background-color: cyan;
+    background-position: right;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
 .about-me h1 {
     font-weight: bold;
     font-size: 48px;
-    display: flex;
 }
 
 .about-me p {
-    text-align: center;
-    color: blue;
+    display: flex;
 }
 
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
