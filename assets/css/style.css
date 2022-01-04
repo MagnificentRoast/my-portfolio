@@ -66,10 +66,6 @@ header nav ul li {
     font-size: 48px;
 }
 
-.about-me p {
-    display: flex;
-}
-
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     
