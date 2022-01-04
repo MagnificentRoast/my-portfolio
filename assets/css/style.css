@@ -55,17 +55,27 @@ header nav ul li a {
     color:rgb(36, 32, 32);
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #39a6b2;
+    background-color: rgb(36, 32, 32);
+    }
+
 .hero {
     background-image: url("../images/image.png");
     background-size: cover;
     background-position: center;
     height: 179px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .text-right {
-    display: flex;
-    justify-content: flex-end;
     line-height: 11;
+    background-color: #39a6b2;
+    display: inline;
 }
 
 .photo {
