@@ -5,4 +5,4 @@ If you have any questions, send me an email at magnificentroast@gmail.com, I wil
 
 So far I have added the id selectors "about-me" and "my-projects", added class selectors of "about-me" and "my-projects" as well, began with semantic HTML, linked the CSS stylesheet to the main HTML document, and added a universal selector to the stylesheet with only font-family in there, I haven't changed anything else otherwise, so far a decent skeleton.
 
-"hero" section image found on this site: https://www.123rf.com/photo_141521611_stock-vector-contrast-blue-and-grey-stripes-abstract-grunge-tech-banner-design-old-wall-concrete-texture-backgrou.html, copryight is 123rf, all rights reserved.
+"hero" section image found on 123freevectors.com, all copyright is held by 123freevectors.

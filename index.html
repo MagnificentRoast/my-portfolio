@@ -1,54 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intiial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta type="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My portfolio</title>
+    <title>Drew's portfolio!</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1>My Portfolio</h1>
+    <!--Navigation tags, block element-->
+    <header>
+        <h1>
+            <a href="/" class="title-font">My portfolio </a>
+        </h1>
         <nav>
             <ul>
+                <l1>
+                    <a href="#about-me">About me</a>
+                </l1>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="my-work">My work</a>
                 </li>
                 <li>
-                    <a href="#my-projects">My Projects</a>
+                    <a href="contact-me">Contact me</a>
                 </li>
                 <li>
-                    <a href="contact-me">Contact Me</a>
+                    <a href="resume">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="hero"></section>
-        <div class="hero-text">
-            <h1>Welcome to Drew's portfolio!</h1>
+    <!-- end navigation -->
+
+    <section class="hero">
+        <div class="hero-cta">
+            <h2>Welcome to my portfolio</h2>
         </div>
-    <section class="content"></section>
-    <section id="about-me" class="about-me">
-        <h1>About me</h1>
-        <p>
-            Hi, everyone, my name is Drew Harris. I have been working with computers for as long as I can remember, and this portfolio is an example of the projects I have been working on as of late. I've been in web development for only a short time, but I would love to work with you to prove myself. I hope my work can speak for itself. To contact me, send an email to <a href="mailto:magnificentroast@gmail.com">magnificentroast@gmail.com</a> and I will answer ASAP.
-        </p>
     </section>
-    <section id="my-projects" class="my-projects"></section>
-        <h1>My current work</h1>
-        <p>
-            For now, until I get it styled, this is a placeholder paragraph. Here is my current project, Run Buddy.
-        </p>
-        <a href="https://magnificentroast.github.io/run-buddy">Run Buddy</a>
-    <section id="contact-me" class="contact-me"></section>
-        <h1>Contact me</h1>
-        <p>
-            If you have any questions send me an email at <a href="mailto:magnificentroast@gmail.com">magnificentroast@gmail.com</a> and I will respond as soon as possible.
-        </p>
-    <article class="run-buddy">
-        <a href="https://magnificentroast.github.io/run-buddy/">Run Buddy</a>
-    </article>
+    <section id="about-me" class="about-me"></section>
+    <section id="my-work" class="my-work"></section>
+    <section id="contact-me" class="contact">
+        <div class="contact-info">
+            <div>
+                <h3>Contact me here</h3>
+                <p>
+                    If you wish to get in touch with me for inquiries, click <a href="mailto:magnificentroast@gmail.com">here</a> to send me an email, I will answer as soon as I can.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="resume"></section>
+
+    <footer></footer>
 </body>
+
+<footer></footer>
 </html>
