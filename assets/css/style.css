@@ -5,7 +5,7 @@
 }
 
 header {
-    padding: 20px 35px;
+    padding: 0;
     background-color: rgb(36, 32, 32);
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,16 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/image.png")
+    background-image: url("../images/image.png");
+    background-size: cover;
+    background-position: center;
+    height: 179px;
+}
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 11;
 }
 
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
