@@ -17,6 +17,7 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color:rgb(36, 32, 32);
+    background-color: #39a6b2;
 }
 
 header a {
@@ -28,7 +29,6 @@ header h1 a {
     display: flex;
     margin: 20px;
     padding: 0;
-    background: #39a6b2;
 }
 
 header nav {
@@ -66,6 +66,15 @@ header nav ul li a {
     display: flex;
     justify-content: flex-end;
     line-height: 11;
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+}
+
+.primary-title {
+    color: #fce136;
 }
 
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
