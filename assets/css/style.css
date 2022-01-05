@@ -52,14 +52,14 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    border-bottom: 5px solid var(--primary-color);
-    color: #39a6b2;
+    color: var(--primary-color);
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    border-bottom: var(--primary-color)
 }
 
 .border-bottom {
