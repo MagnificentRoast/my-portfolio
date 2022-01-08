@@ -9,6 +9,10 @@
     --secondary-color: rgb(36, 32, 32);
 }
 
+body {
+    background-color: rgb(44, 44, 44);
+}
+
 header {
     padding: 0;
     background-color: var(--secondary-color);
@@ -53,13 +57,15 @@ header nav ul {
     align-items: center;
     list-style: none;
     color: var(--primary-color);
+    border-bottom: 3px solid #39a6b2;
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    border-bottom: var(--primary-color)
+    border-bottom: 4px solid var(--primary-color)
+
 }
 
 .border-bottom {
@@ -95,6 +101,7 @@ footer {
     line-height: 11;
     background-color: var(--primary-color);
     display: inline;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .photo {
@@ -106,9 +113,98 @@ footer {
     border: 3px solid var(--primary-color);
 }
 
+p {
+    color: #fff;
+}
+
 .primary-title {
-    background-color: var(--primary-color);
+    color: #fff;
+    border-bottom: 10px solid var(--primary-color);
+}
+
+.primary-title, .border-primary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.run-buddy img {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    border: 5px solid var(--primary-color);
+}
+
+.run-buddy img:hover {
+    opacity: 1;
+}
+
+.code-refactor img {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    margin: 8px;
+    height: 75px;
+    border: 5px solid var(--primary-color);
+}
+
+.code-refactor img:hover {
+    opacity: 1;
+}
+
+.box-text {
+    line-height: 1;
+    color: #fce138;
+    position: absolute;
+    bottom: 47px;
+    left: 73px;
+}
+
+.box-text1 {
+    line-height: 1;
     color: var(--secondary-color);
+    position: absolute;
+    bottom: -42px;
+    left: 53px;
+}
+
+.contact-info a {
+    color: #fff;
+}
+
+.contact-info a:hover {
+    color: #024e76;
+}
+
+.contact-info a:active {
+    color: #39a6b2;
+}
+
+.contact-info a:visited {
+    color: #fce138;
+}
+
+.second-link {
+    color: #fff;
+}
+
+.second link:hover {
+    color: #024e76;
+}
+
+.second-link:active {
+    color: #39a6b2;
+}
+
+.second-link:visited {
+    color: #fce138;
 }
 
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
@@ -146,7 +242,7 @@ footer {
     }
 
     header nav ul {
-        margin-top: 20px;
+        margin: auto;
         width: 100%;
         justify-content: center;
     }
