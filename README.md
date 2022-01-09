@@ -10,3 +10,5 @@ So far I have added the id selectors "about-me" and "my-projects", added class s
 Code for the box shadow property was found on css-tricks.
 
 I have added a clickable image for run buddy that will take you to the correct site.
+
+Image for the password generator box is found at https://choosetoencrypt.com/tech/best-password-manager-password-generator-tools/. All rights reserved.
