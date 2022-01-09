@@ -148,6 +148,7 @@ p {
 
 .run-buddy img:hover {
     opacity: 1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .code-refactor img {
@@ -161,6 +162,7 @@ p {
 
 .code-refactor img:hover {
     opacity: 1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .password-generator img {
@@ -174,13 +176,14 @@ p {
 
 .password-generator img:hover {
     opacity: 1;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .box-text {
     line-height: 1;
     color: var(--tertiary-color);
     position: absolute;
-    bottom: -70px;
+    bottom: -170px;
     left: 30px;
 }
 
@@ -188,7 +191,7 @@ p {
     line-height: 1;
     color: var(--primary-color);
     position: absolute;
-    bottom: 30px;
+    bottom: -75px;
     left: 310px;
 }
 
@@ -196,11 +199,15 @@ p {
     line-height: 1;
     color: var(--secondary-color);
     position: absolute;
-    bottom: 30px;
+    bottom: -75px;
     left: 468px;
 }
 
 .about-me-text {
+    text-align: center;
+}
+
+.contact-info-text {
     text-align: center;
 }
 
@@ -247,6 +254,7 @@ p {
 
 /* MEDIA QUERY FOR MOBILE PHONE SCREEN AND SMALLER */
 @media screen and (max-width: 575px) {
+
 }
 }
 }
