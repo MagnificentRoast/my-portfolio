@@ -19,6 +19,8 @@ header {
     padding: 0;
     background-color: var(--secondary-color);
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -245,16 +247,112 @@ p {
 
 /* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
 
+    header h1 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        line-height: 1;
+        font-size: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    footer h4 {
+        text-align: center;
+    }
+
+    .border-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header h1 {
+        font-size: 10vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .run-buddy img {
+        height: 263px;
+        width: 439px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .code-refactor img {
+        height: 150px;
+        width: 236px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .password-generator img {
+        height: 150px;
+        width: 236px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-text {
+        line-height: 1;
+        color: var(--tertiary-color);
+        position: absolute;
+        bottom: 148px;
+        left: 30px;
+        font-size: 31px;
+    }
+
+    .box-text1 {
+        line-height: 1;
+        color: var(--primary-color);
+        position: absolute;
+        bottom: 255px;
+        left: 478px;
+        font-size: 30px;
+    }
+
+    .box-text2 {
+        line-height: 1;
+        color: var(--secondary-color);
+        position: absolute;
+        bottom: 357px;
+        left: 719px;
+        font-size: 25px;
+    }
 
 
 /* MEDIA QUERY FOR TABLET SCREEN AND SMALLER */
 @media screen and (max-width: 768px) {
+}
 
 
 /* MEDIA QUERY FOR MOBILE PHONE SCREEN AND SMALLER */
 @media screen and (max-width: 575px) {
-
-}
 }
 }
